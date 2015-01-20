@@ -13,7 +13,7 @@ public class NameGenerator {
 		String nameM[] = {"av", "drec", "ouc", "mern", "lis", "don", "cam", "com", "dar", "port", "toc", "on", "ie", "polt", "gon"};
 	
 		String nameE[] = {"er", "mair", "ler", "dra", "co", "las", "ner", "lair", "mar", "bon", "mes", "ar", "ire", "ore", "born", "ite",
-				"tigh", "polt", "nam", "turn"};
+				"tigh", "polt", "nam", "turn", "lock"};
 		
 		System.out.println(nameS.length + ", " + nameM.length + ", " + nameE.length);
 		System.out.println("How many names would you like to create?");
