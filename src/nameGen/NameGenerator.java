@@ -1,9 +1,9 @@
-package namePicker;
+package nameGen;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class NamePicker {
+public class NameGenerator {
 	public static void main(String args[]){
 		Random random = new Random();
 		Scanner scan = new Scanner(System.in);
