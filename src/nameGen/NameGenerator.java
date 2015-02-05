@@ -21,14 +21,12 @@ public class NameGenerator {
 		scan.close();
 		
 		for (int i = 0; i < amount; ++i){
-			if (Math.random() * 100 > 70){
-				System.out.print(nameS[random.nextInt(nameS.length)]);
-				System.out.println(nameE[random.nextInt(nameE.length)]);
-			}else{
-				System.out.print(nameS[random.nextInt(nameS.length)]);
+			System.out.print(i + " ");
+			System.out.print(nameS[random.nextInt(nameS.length)]);
+			if (Math.random() * 100 < 70){
 				System.out.print(nameM[random.nextInt(nameM.length)]);
-				System.out.println(nameE[random.nextInt(nameE.length)]);
 			}
+			System.out.println(nameE[random.nextInt(nameE.length)]);
 		}
 	}
 
